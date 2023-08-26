@@ -41,7 +41,7 @@ let len = q.tail - q.head
 
 for (let i = 1; i <= len; i++) {
     q.dequeue(i);
-    console.log("Ewrtdyf", q)
+    console.log("Ewrtdyfff", q)
 
 }
 
