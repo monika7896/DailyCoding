@@ -34,7 +34,7 @@ for (let i = 1; i <= 7; i++) {
     let headValue = q.head;
 
     // q.dequeue(i);
-    console.log("er", headValue, "fghjk")
+    console.log("er3", headValue, "fghjk")
 
 }
 let len = q.tail - q.head
