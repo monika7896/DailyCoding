@@ -1,4 +1,4 @@
-//find secons large element in the array
+//find secons large element in the array 
 class Solution:
     def getSecondLarge(self, arr):
         if len(arr) < 2:
