@@ -3,7 +3,8 @@
 arr =[1,2,2,3,3,4,7]
 
 class Solution:
-    def remove_duplicate(self , arr):       i=0
+    def remove_duplicate(self , arr):      
+       i=0
        
        for j in range(len(arr)):
            if arr[i]!= arr[j]:
