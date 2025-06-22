@@ -1,15 +1,18 @@
-
 def second_large(arr):
-    firstMax = float('inf')
-    seondMax = float('inf')
-    for i in range (len(arr)-1):
-        if arr[i] > firstMax:
-            seondMax=arr[i]
-        else:
-            firstMax = arr[i]
-           
-    return seondMax
+    if len(arr) < 2:
+        return None  
 
-arr = [12, 35, 1, 10, 34, 1]
-print(second_large(arr))
-
+    firstMax = secondMax = float('-inf')
+    
+    for num in arr:
+        if num > firstMax:
+            secondMax = firstMax
+            firstMax = num
+        elif firstMax > num > secondMax:
+            secondMax = num
+    
+    return secondMax if secondMax != float('-inf') else None
+    
+    
+arr = [-1,-2,-3,-9,-4]
+print(second_large(arr))  
