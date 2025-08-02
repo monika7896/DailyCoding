@@ -1,3 +1,5 @@
+# method 1
+
 def move_zeros_end(arr):
     count = 0
     for i in range(len(arr)-1):
@@ -10,7 +12,7 @@ arr = [1, 2, 0, 4, 3, 0, 5, 0]
 print(move_zeros_end(arr))
 
 
-# using class method
+# using class method 2
 
 
 # Example 1:
