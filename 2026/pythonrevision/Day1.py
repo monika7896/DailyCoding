@@ -60,6 +60,73 @@ print(sum(square))
 # list compransion
 sqare_c = [ i**2  for i in range(11)]
 print(sqare_c)
+# slicing
+print(square_c[0:6])
+print(square_c[:6])
+print(square_c[2:6])
+# loop to subset only
+for i in square_c[0:3]:
+    print(i)
+    
+# copy entire list using slicing
+square_copy= square_c[:]
+square_copy.append(12121)
+print(square_copy)
+print(square_c)
+
+
+import array as arr
+
+# 'i' specifies signed integer type
+my_array = arr.array('i', [1, 2, 3, 4, 5])
+print(my_array)
+
+
+day = int(input("Enter a number (1-7): "))
+
+# Match-case (Python 3.10+ feature) to act like a switch
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")
+    case _:
+        # Default case if no match
+        print("Invalid")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
