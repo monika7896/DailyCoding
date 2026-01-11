@@ -34,6 +34,7 @@ for (let i = 1; i <= 7; i++) {
     let headValue = q.head;
 
     // q.dequeue(i);
+
     console.log("er", headValue, "fghjk")
 
 }
